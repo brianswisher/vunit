@@ -1,0 +1,11 @@
+{
+  "name": "vunit",
+  "version": "1.0.0",
+  "description": "viewport unit utility",
+  "main": "vunit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Swisher",
+  "license": "ISC"
+}
