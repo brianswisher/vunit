@@ -1,6 +1,6 @@
 {
   "name": "vunit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "viewport unit utility",
   "main": "vunit.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/brianswisher/vunit.git"
   },
-  "readme": "README.md",
+  "readme": "\n# vunit\n## viewport unit utility\n\n### install\n```bash\nnpm i vunit --save\n```\n\n### usage\n```javascript\nvar Vunit require('vunit');\nvar px = new Vunit(375, 'w');\nlet styles = {\ncontainer: {\nwidth: px(275)\n}\n}\n```\n",
+  "readmeFilename": "README.md",
   "license": "ISC"
 }
