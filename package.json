@@ -1,6 +1,6 @@
 {
   "name": "vunit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "viewport unit utility",
   "main": "vunit.js",
   "scripts": {
@@ -11,5 +11,6 @@
     "type": "git",
     "url": "https://github.com/brianswisher/vunit.git"
   },
+  "readme": "README.md",
   "license": "ISC"
 }
