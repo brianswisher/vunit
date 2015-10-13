@@ -11,6 +11,6 @@
     "type": "git",
     "url": "https://github.com/brianswisher/vunit.git"
   },
-  "readme": "# vunit\n## viewport unit utility\n\n### install\n```bash\nnpm i vunit --save\n```\n\n### usage\n```javascript\nvar Vunit require('vunit');\nvar px = new Vunit(375, 'w');\nlet styles = {\n  container: {\n    width: px(275)\n  }\n}\n```\n",
+  "readme": "# vunit\n## viewport unit utility\n\n### install\n```bash\nnpm i vunit --save\n```\n\n### usage\n```javascript\nvar Vunit require('vunit');\nvar px = new Vunit(375, 'w');\nlet styles = {\n\tcontainer: {\n\t\t width: px(275)\n\t}\n}\n```\n",
   "license": "ISC"
 }
