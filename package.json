@@ -1,6 +1,6 @@
 {
   "name": "vunit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "viewport unit utility",
   "main": "vunit.js",
   "scripts": {
