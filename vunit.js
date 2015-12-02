@@ -8,7 +8,11 @@ module.exports = function(pixels, unitType) {
 
   if (!pixels) throw "pixels is undefined!"
 
-  return function(px) {
-    return ( (px / pixels) * 100 ) + "v" + unitType;
-  };
+  return function(px, vw) {
+    if (!vw) {
+      return ( px / pixels * 100 ) + "v" + unitType;
+    } else {
+      return vw / pixels * px;
+    }
+  }
 };
