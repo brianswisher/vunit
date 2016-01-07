@@ -9,7 +9,7 @@ npm i vunit --save
 
 ### usage
 ```javascript
-var Vunit require("vunit");
+var Vunit = require("vunit");
 var px = new Vunit(375, "w");
 let styles = {
   container: {
